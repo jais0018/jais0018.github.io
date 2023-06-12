@@ -1,0 +1,35 @@
+body{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+header,footer{
+    background-color: green;
+}
+.site-title{
+    color: aquamarine;
+
+}
+#my-image{
+    
+    
+    box-shadow: 0px 0px 2px 1px black;
+}
+.hobbies{
+    list-style-type: square;
+}
+.site-link a{
+    text-decoration: none;
+    background-color:yellowgreen;
+    border: 2px solid black;
+}
+.site-link a:hover{
+    background-color: blue;
+    
+}
+.site-link li{
+    list-style: none;
+}
+.hobbies li:nth-child(odd){
+    color: pink;
+}
